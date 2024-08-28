@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: aeonik;
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav h1 i{
+    rotate: 45deg;
+    display: inline-block;
+    font-size: 50px;
+}
+nav h1{
+    font-size: 40px;
+}
+nav h4{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+nav button{
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 300;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
+.center{
+    display: flex;
+    padding: 0px 80px;
+    height: 80%;
+    width: 100%;
+}
+
+.center-part1{
+    height: 100%;
+    width: 40%;
+}
+
+
+.center-part1 h1{
+    font-size: 65px;
+}
+.center-part1 p{
+    font-size: 18px;
+    padding: 30px 0px;
+}
+.center-part1 button{
+    background-color: black;
+    padding: 10px 25px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border: hidden;
+}
+
+.center-part2{
+    height: 100%;
+    width: 60%;
+}
+
+.center-part2 img{
+    height: 480px;
+    padding-left: 17%;
+}
+
+.section1bottom{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.section1bottom img{
+    height: 40px;
+}
+
+.section2 .services{
+    padding: 30px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.services h3{
+    background-color: rgb(72, 183, 96);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.services p{
+    width: 53%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container{
+    height: 87%;
+    width: 100%;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.elem{
+    flex-shrink: 0;
+    height: 250px;
+    width: 45%;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 40px;
+    margin: 28px;
+    box-shadow: 0 15px 0 black;
+    display: flex;
+}
+
+.elempart1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elempart1 h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: 600;
+    background-color: rgb(72, 183, 96);
+    border-radius: 10px;
+}
+.elempart1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-weight: 400;
+    gap: 10px;
+}
+
+.elempart1 h4 i{
+    font-size: 30px;
+    color: rgb(72, 183, 96);
+    padding: 3px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.elempart2{
+    height: 100%;
+    width: 50%;
+}
+
+.elempart2 img{
+    height: 100%;
+}
+
+
+.black {
+    background-color: black;
+}
+
+.black .elempart1 h2{
+    background-color: white;
+}
+
+.black .elempart1 h4{
+    color: white;
+}
+
+.black .elempart1 h4 i{
+    color: black;
+    background-color: white;
+}
+
