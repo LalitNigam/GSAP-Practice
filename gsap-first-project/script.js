@@ -33,6 +33,9 @@ tl.from(".section1bottom img",{
     duration:0.6
 },"-=1.5")
 }
+
+//! section2
+
 function page2Animation(){
     var tl2 = gsap.timeline({
     scrollTrigger:{
@@ -75,7 +78,36 @@ tl2.from(".elem.line2.right",{
 },"same2")
 }
 
+function page3Animation(){
+    var tl3 = gsap.timeline({
+        scrollTrigger:{
+            trigger:".section3",
+            scroller:"body",
+            start:"top 60%",
+            end:"top 5%",
+            scrub:2
+            }
+    })
+    
+    tl3.from(".card",{
+        x:90,
+        opacity:0
+        
+    },"pin")
+    tl3.from(".card h1, .card p, .card button",{
+        x:-160,
+        opacity:0
+    },"pin")
+    
+    tl3.from(".learn",{
+        y:-200,
+        opacity:0,
+        duration:1,
+    })
+}
 
 page1Animation()
 page2Animation()
+page3Animation()
+
 

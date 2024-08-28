@@ -208,3 +208,100 @@ nav button{
     background-color: white;
 }
 
+.card{
+    display: flex;
+    height: 40%;
+    width: 85%;
+    background-color: rgb(205, 208, 210);
+    margin: 100px;
+    border-radius: 40px;
+}
+.cardpart1{
+    height: 100%;
+    width: 50%;
+    padding: 40px;
+}
+.cardpart1 h1{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.cardpart1 p{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding: 25px 0px ;
+}
+.cardpart1 button{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: hidden;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+.cardpart2{
+    height: 100%;
+    width: 50%;
+}
+.cardpart2 img{
+    height: 280px;
+    padding-left: 160px;
+}
+
+.case{
+    height: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.case h3{
+    padding: 0px 10px;
+    font-size: 35px;
+}
+
+.learn{
+    height: 80%;
+    width: 85%;
+    margin: 50px 100px;
+    display: flex;
+    padding: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+}
+
+.learn .learn1{
+    height: 100%;
+    width: 33%;
+    padding-right:40px;
+    border-right: 2px solid white;
+}
+.learn .learn2{
+    height: 100%;
+    width: 33%;
+    padding: 0px 30px;
+    border-right: 2px solid white;
+}
+.learn .learn3{
+    height: 100%;
+    width: 33%;
+    padding-left: 30px;
+}
+
+.learn h4 {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    margin-bottom: 20px;
+}
+
+.learn h3{
+    font-size: 20px;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: rgb(72, 183, 96) ;
+    bottom: 10px;
+}
