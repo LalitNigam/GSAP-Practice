@@ -1,0 +1,25 @@
+body{
+  background-color: black;
+  padding: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 20px;
+}
+
+button{
+  height: 40px;
+  width: 200px;
+  background: rgb(249, 249, 249);
+  margin: 30px 0px;
+  font-size: 20px;
+  border: hidden;
+  border-radius: 10px;
+}
